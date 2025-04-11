@@ -284,7 +284,7 @@ export default function Index() {
       </ScrollView>
 
       {/* Fixed QR Code Button */}
-      <View className="absolute bottom-20 right-4 bg-white rounded-2xl p-2 shadow-lg z-10">
+      <View className="absolute bottom-24 right-4 bg-white rounded-2xl p-2 shadow-lg z-10">
         <TouchableOpacity className="flex-row items-center justify-between gap-2">
           <Text className="text-gray-700">Scan QR</Text>
           <QrCode color="#d8b4fe" size={25} />
